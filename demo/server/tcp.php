@@ -1,7 +1,7 @@
 <?php
 $serv = new swoole_server("192.168.10.10", 9501);
 $serv->set(array(
-    'worker_num' => 2,
+    'worker_num' => 1,
     'max_request' => 4
 ));
 
